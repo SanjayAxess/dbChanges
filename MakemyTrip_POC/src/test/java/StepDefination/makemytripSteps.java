@@ -1,14 +1,9 @@
 package StepDefination;
 
 import BaseMethod.Baseclass;
-import PageObjectModel.UserDetailsPO;
-import PageObjectModel.BusResultsPagePO;
-import PageObjectModel.HomePagePO;
-import PageObjectModel.PaymentPagePO;
+import PageObjectModel.*;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-
-import java.util.Objects;
 
 
 public class makemytripSteps extends Baseclass {
@@ -30,13 +25,13 @@ public class makemytripSteps extends Baseclass {
     public void i_navigate_to_the_bus_booking_section() {
         homepage = new HomePagePO(driver);
         homepage.busBooking();
-        String BusBooking = driver.getCurrentUrl();
+        String actualUrl = driver.getCurrentUrl();
         String expectedURL = "https://www.makemytrip.com/bus-tickets/";
-        Assert.assertEquals("url MissMatch", expectedURL, BusBooking);
+        Assert.assertEquals("url MissMatch", expectedURL, actualUrl);
     }
 
     @When("I enter {string} as the pickup location and {string} as the drop location")
-    public void i_enter_as_the_pickup_location_and_as_the_drop_location(String departure, String arrival) throws InterruptedException {
+    public void pickup_location_drop_location(String departure, String arrival) throws InterruptedException {
 
         homepage = new HomePagePO(driver);
         homepage.FromCity_ToCity(departure, arrival);
@@ -56,8 +51,8 @@ public class makemytripSteps extends Baseclass {
 
     @Then("the bus search results page should be displayed")
     public void the_bus_search_results_page_should_be_displayed() {
-      driver.getCurrentUrl();
-      Assert.assertTrue(Objects.requireNonNull(driver.getCurrentUrl()).contains("bus-ticket"));
+        boolean contains = driver.getCurrentUrl().contains("bus-ticket");
+        Assert.assertTrue(contains);
 
     }
 
@@ -68,19 +63,19 @@ public class makemytripSteps extends Baseclass {
     }
 
     @When("I select the cheapest bus available")
-    public void i_select_the_cheapest_bus_available() throws InterruptedException {
+    public void cheapest_bus_available() throws InterruptedException {
         cheapest = new BusResultsPagePO(driver);
         cheapest.cheapestPrice();
     }
 
     @When("I click to select a seat")
-    public void i_click_to_select_a_seat() throws InterruptedException {
+    public void select_a_seat() {
         cheapest = new BusResultsPagePO(driver);
         cheapest.setSelectSete();
     }
 
     @And("I select Pickup as {string} & Drop Points as {string}")
-    public void iSelectPickupAsDropPointsAs(String pickupLocation, String dropLocation) throws InterruptedException {
+    public void PickupAsDropPointsAs(String pickupLocation, String dropLocation) throws InterruptedException {
         cheapest = new BusResultsPagePO(driver);
         cheapest.BodingPoint(pickupLocation);
         cheapest.DropingPoint(dropLocation);
@@ -92,24 +87,33 @@ public class makemytripSteps extends Baseclass {
     }
 
     @When("I proceed to continue")
-    public void i_proceed_to_continue() {
+    public void proceed_to_continue() {
         cheapest = new BusResultsPagePO(driver);
         cheapest.confirmButton();
     }
 
-    @When("I enter valid traveller details")
-    public void i_enter_valid_traveller_details() throws InterruptedException {
+    @And("I enter valid traveller details {string} {string} {string} {string}")
+    public void UserDetails(String name, String age, String email, String mobileNumber) throws InterruptedException {
         validFields = new UserDetailsPO(driver);
-        validFields.Contectdetails();
+        validFields.Contectdetails(name,age,email,mobileNumber);
         validFields.mandatoryfields();
         validFields.paymentPage();
     }
-
     @Then("I should be navigated to the payment page")
-    public void i_should_be_navigated_to_the_payment_page() {
+    public void payment_page() {
+
+        String currentUrl = driver.getCurrentUrl();
+
+        System.out.println("Actual URL: " + currentUrl);
+        System.out.println("Expected to contain: 'payments'");
+
+        assert currentUrl != null;
+        boolean contains = currentUrl.contains("payments");
+        System.out.println("Contains 'payments': " + contains);
+
+        Assert.assertTrue("URL should contain 'payments' but was: " + currentUrl, contains);
         payment = new PaymentPagePO(driver);
         payment.isPaymentPageReached();
     }
-
 
 }

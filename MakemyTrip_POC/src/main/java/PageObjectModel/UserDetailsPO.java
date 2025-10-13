@@ -45,21 +45,21 @@ public class UserDetailsPO {
         WebElement travelInsurance;
         @FindBy(xpath = "//span[text()='Continue']")
     WebElement continueForpayment;
-        private void setEntername(){
+        private void setEntername(String Name){
 
-            Entername.sendKeys("Gokul");
+            Entername.sendKeys(Name);
         }private void setGender(){
 
             gender.click();
         }
-    private void setEnterage(){
-            Enterage.sendKeys("24");
+    private void setEnterage(String age){
+            Enterage.sendKeys(age);
         }
-    private void setEnteremail(){
-            email.sendKeys("gokul@gmail.com");
+    private void setEnteremail(String gmail){
+            email.sendKeys(gmail);
         }
-    private void setMobilenumber(){
-            mobilenumber.sendKeys("6789912345");
+    private void setMobilenumber(String phone){
+            mobilenumber.sendKeys(phone);
         }
     private void SelectState() throws InterruptedException {
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -76,18 +76,18 @@ public class UserDetailsPO {
                 wait.until(ExpectedConditions.elementToBeClickable(TripAssured));
                 TripAssured.click();
             }
-        } catch (Exception e) {
-            System.out.println("An unexpected error occurred in Secure your trip: " + e.getMessage());
+        } catch (Exception ignored) {
+
         }
 
     }
 
-        public void Contectdetails(){
-            setEntername();
-            setEnterage();
+        public void Contectdetails(String name, String age, String email, String phoneNumber){
+            setEntername(name);
+            setEnterage(age);
             setGender();
-            setEnteremail();
-            setMobilenumber();
+            setEnteremail(email);
+            setMobilenumber(phoneNumber);
         }
         public void mandatoryfields() throws InterruptedException {
             SelectState();
@@ -96,6 +96,8 @@ public class UserDetailsPO {
         }
         public void paymentPage(){
             continueForpayment.click();
+
         }
+
 
 }

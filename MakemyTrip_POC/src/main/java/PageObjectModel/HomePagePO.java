@@ -55,6 +55,8 @@ public class HomePagePO {
         Thread.sleep(1000);
         searchInput.sendKeys(Keys.DOWN);
         searchInput.sendKeys(Keys.ENTER);
+        System.out.println(" ENTER FROM CITY "+fromCity);
+
     }
 
     public void toCity(String toCity) throws InterruptedException {
@@ -69,6 +71,7 @@ public class HomePagePO {
         Thread.sleep(1000);
         searchInput.sendKeys(Keys.DOWN);
         searchInput.sendKeys(Keys.ENTER);
+        System.out.println("ENTER TO CITY "+toCity);
     }
 
     public void FromCity_ToCity(String depature, String Arrival) throws InterruptedException {
@@ -83,5 +86,6 @@ public class HomePagePO {
 
     public void SearchBus() {
         searchButton.click();
+
     }
 }

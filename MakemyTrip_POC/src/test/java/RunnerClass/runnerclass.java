@@ -1,5 +1,6 @@
 package RunnerClass;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.AfterClass;
@@ -14,6 +15,7 @@ import static BaseMethod.Baseclass.*;
         glue = "StepDefination"
 )
 public class runnerclass {
+
     @BeforeClass
     public static void start(){
         initializeBrowser();
@@ -22,7 +24,12 @@ public class runnerclass {
 
     }
     @AfterClass
-    public static void teardown(){
-           // teardown();
+    public static void teardown() {
+
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+        System.out.println("Browser closed successfully");
     }
 }

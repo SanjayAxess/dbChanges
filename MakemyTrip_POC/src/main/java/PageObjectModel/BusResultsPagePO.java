@@ -58,6 +58,7 @@ public class BusResultsPagePO {
     WebElement ContinueButton;
 
     public void seatType() {
+        System.out.println("-------------- Entering Bus page --------------");
         try {
             filterAC.click();
             filterSleeper.click();
@@ -92,44 +93,32 @@ public class BusResultsPagePO {
 
         Thread.sleep(1000);
 
-       try {
-            for (WebElement PICKpoint : pickupPoint) {
-                if (PICKpoint.getText().contains(pickUpLocaton)) {
-                    PICKpoint.click();
-                    String pickup = PICKpoint.getText();
-                    System.out.println("ADDRESS :" +pickup);
-                    break;
-                }else{
-                    System.out.println("Pickup point is not selected" +PICKpoint.getText());
-                }
+        for (WebElement PICKpoint : pickupPoint) {
+            if (PICKpoint.getText().contains(pickUpLocaton)) {
+                PICKpoint.click();
+                String pickup = PICKpoint.getText();
+                System.out.println("ADDRESS :" + pickup);
+                break;
             }
-        } catch (Exception e) {
-            System.out.println("An unexpected error occurred in pickupPoint: " + e.getMessage());
         }
     }
-
     public void DropingPoint(String dropLocation) throws InterruptedException {
 
         Thread.sleep(1000);
 
-        try {
             for (WebElement DROPpoint : dropPoint) {
                 if (DROPpoint.getText().contains(dropLocation)) {
                     DROPpoint.click();
                     String pickup = DROPpoint.getText();
                     System.out.println("ADDRESS :" +pickup);
                     break;
-                }else{
-                    System.out.println("Drop point is not selected");
                 }
             }
-        } catch (Exception e) {
-            System.out.println("An unexpected error occurred in dropPoint: " + e.getMessage());
-        }
     }
 
     public void confirmButton() {
         js.executeScript("window.scrollTo(0, 5000)");
         ContinueButton.click();
+        System.out.println("-------------- Exit From Bus Page --------------");
     }
 }
