@@ -7,10 +7,11 @@ public class Assg_looping {
         System.out.println("Enter the Natural Number: ");
         int n = sc4.sc.nextInt();
         int sum = 0;
-        for (int i = 1;i<=n;i++)
-        {
-            sum = sum + i;
-            // System.out.println(sum);
+        if(n>0) {
+            for (int i = 1; i <= n; i++) {
+                sum = sum + i;
+                // System.out.println(sum);
+            }
         }
         System.out.println("Sum of numbers: "+sum);
     }
@@ -170,7 +171,7 @@ public class Assg_looping {
     }
     public static void main(String[] args) {
         Assg_looping al = new Assg_looping();
-        //al.factoial();
+        al.factoial();
         //al.Fibonacci();
         //al.reverse();
         //al.Palindrome();
@@ -180,6 +181,6 @@ public class Assg_looping {
         //al.armstrongnos();
         //al.sumofnos();
         //al.prime_no();
-        al.sum_power();
+       // al.sum_power();
     }
 }
