@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-27T08:39:09 IST" name="Default suite" finished-at="2025-10-27T08:39:20 IST" duration-ms="10599">
+    <groups>
+    </groups>
+    <test started-at="2025-10-27T08:39:09 IST" name="Default test" finished-at="2025-10-27T08:39:20 IST" duration-ms="10599">
+      <class name="testautoprac.HomePageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:09 IST" name="openBrowser" finished-at="2025-10-27T08:39:18 IST" duration-ms="8520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="enterTextBoxValues(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:18 IST" name="enterTextBoxValues" description="Enter values in TextBox fields" data-provider="textBoxData" finished-at="2025-10-27T08:39:19 IST" duration-ms="657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muhammad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@abc.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTextBoxValues -->
+        <test-method signature="enterRadioCheckBoxValues(java.lang.String,[Ljava.lang.String;)[pri:1, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:19 IST" name="enterRadioCheckBoxValues" description="Enter values in RadioButton and CheckBox fields" data-provider="radioCheckData" finished-at="2025-10-27T08:39:20 IST" duration-ms="980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2c30b71f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRadioCheckBoxValues -->
+        <test-method signature="acceptAlert()[pri:2, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:20 IST" name="acceptAlert" description="Verifying AlertButton Functionality" finished-at="2025-10-27T08:39:20 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlert -->
+        <test-method signature="CheckTable()[pri:3, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:20 IST" name="CheckTable" description="Verifying Table" finished-at="2025-10-27T08:39:20 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTable -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testautoprac.HomePageTest@3f191845]" started-at="2025-10-27T08:39:20 IST" name="closeBrowser" finished-at="2025-10-27T08:39:20 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testautoprac.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
