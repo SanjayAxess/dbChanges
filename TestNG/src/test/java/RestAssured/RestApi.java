@@ -4,8 +4,6 @@ import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.when;
-
 public class RestApi {
 
     @Test

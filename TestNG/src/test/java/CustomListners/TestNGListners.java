@@ -2,7 +2,7 @@ package CustomListners;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.Listeners;
+
 
 
 public class TestNGListners implements ITestListener {
