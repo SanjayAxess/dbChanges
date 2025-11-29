@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-12T21:41:42 IST" name="Default suite" finished-at="2025-11-12T21:41:45 IST" duration-ms="3562">
+    <groups>
+    </groups>
+    <test started-at="2025-11-12T21:41:42 IST" name="Default test" finished-at="2025-11-12T21:41:45 IST" duration-ms="3562">
+      <class name="zRestAssuredPracticeClass.Demo2ClassFileReading">
+        <test-method signature="postUplodPetImage1()[pri:0, instance:zRestAssuredPracticeClass.Demo2ClassFileReading@4c583ecf]" started-at="2025-11-12T21:41:42 IST" name="postUplodPetImage1" finished-at="2025-11-12T21:41:45 IST" duration-ms="3506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUplodPetImage1 -->
+      </class> <!-- zRestAssuredPracticeClass.Demo2ClassFileReading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
