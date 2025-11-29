@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-29T13:51:08 IST" name="Default suite" finished-at="2025-11-29T13:52:12 IST" duration-ms="64267">
+    <groups>
+    </groups>
+    <test started-at="2025-11-29T13:51:08 IST" name="Default test" finished-at="2025-11-29T13:52:12 IST" duration-ms="64267">
+      <class name="application.Name.Test.TestNGConcept">
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUp" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phone1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUp" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUp" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Redmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUp" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oppo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUp" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reno]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Classic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUps(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUps" data-provider="testData4" finished-at="2025-11-29T13:51:22 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phone1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ultta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUps -->
+        <test-method signature="signUps(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUps" data-provider="testData4" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pultta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUps -->
+        <test-method signature="signUps(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUps" data-provider="testData4" finished-at="2025-11-29T13:51:22 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Crasy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUps -->
+        <test-method signature="signUps(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUps" data-provider="testData4" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oppo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUps -->
+        <test-method signature="signUps(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept@d35dea7]" started-at="2025-11-29T13:51:22 IST" name="signUps" data-provider="testData4" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reno]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Classic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUps -->
+      </class> <!-- application.Name.Test.TestNGConcept -->
+      <class name="application.Name.Test.HomePage1Test">
+        <test-method is-config="true" signature="openBrowserurl()[pri:0, instance:application.Name.Test.HomePage1Test@b2c9a9c]" started-at="2025-11-29T13:51:08 IST" name="openBrowserurl" finished-at="2025-11-29T13:51:10 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserurl -->
+        <test-method is-config="true" signature="LaunchAndNevigateToLoginPage()[pri:0, instance:application.Name.Test.HomePage1Test@b2c9a9c]" started-at="2025-11-29T13:51:10 IST" name="LaunchAndNevigateToLoginPage" finished-at="2025-11-29T13:51:14 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndNevigateToLoginPage -->
+        <test-method signature="signUpOrLoginBtnLink()[pri:0, instance:application.Name.Test.HomePage1Test@b2c9a9c]" started-at="2025-11-29T13:51:14 IST" name="signUpOrLoginBtnLink" finished-at="2025-11-29T13:51:17 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpOrLoginBtnLink -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:application.Name.Test.HomePage1Test@b2c9a9c]" started-at="2025-11-29T13:51:17 IST" name="closingBrowser" finished-at="2025-11-29T13:51:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closeBrowserurl()[pri:0, instance:application.Name.Test.HomePage1Test@b2c9a9c]" started-at="2025-11-29T13:51:17 IST" name="closeBrowserurl" finished-at="2025-11-29T13:51:22 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserurl -->
+      </class> <!-- application.Name.Test.HomePage1Test -->
+      <class name="application.Name.Test.LoginPage2ndTest">
+        <test-method is-config="true" signature="openBrowserurl()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:22 IST" name="openBrowserurl" finished-at="2025-11-29T13:51:24 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserurl -->
+        <test-method is-config="true" signature="LaunchAndNevigateToLoginPage()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:24 IST" name="LaunchAndNevigateToLoginPage" finished-at="2025-11-29T13:51:27 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndNevigateToLoginPage -->
+        <test-method signature="checkLoginWithValidCredentials()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:27 IST" name="checkLoginWithValidCredentials" description=" Test Case Id : forExample 1245" finished-at="2025-11-29T13:51:29 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:29 IST" name="closingBrowser" finished-at="2025-11-29T13:51:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="LaunchAndNevigateToLoginPage()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:29 IST" name="LaunchAndNevigateToLoginPage" finished-at="2025-11-29T13:51:30 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndNevigateToLoginPage -->
+        <test-method signature="checkSignUpWIthValidCredentials()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:30 IST" name="checkSignUpWIthValidCredentials" finished-at="2025-11-29T13:51:34 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignUpWIthValidCredentials -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:34 IST" name="closingBrowser" finished-at="2025-11-29T13:51:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closeBrowserurl()[pri:0, instance:application.Name.Test.LoginPage2ndTest@5e5d171f]" started-at="2025-11-29T13:51:34 IST" name="closeBrowserurl" finished-at="2025-11-29T13:51:39 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserurl -->
+      </class> <!-- application.Name.Test.LoginPage2ndTest -->
+      <class name="application.Name.Test.TestNGConcept2For">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="login" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phone1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="login" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="login" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Redmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="login" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oppo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="login" data-provider="testData2" finished-at="2025-11-29T13:51:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PHone5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reno]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Classic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:application.Name.Test.TestNGConcept2For@7770f470]" started-at="2025-11-29T13:51:22 IST" name="logout" finished-at="2025-11-29T13:51:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- application.Name.Test.TestNGConcept2For -->
+      <class name="application.Name.Test.Cartpagetest">
+        <test-method is-config="true" signature="openBrowserurl()[pri:0, instance:application.Name.Test.Cartpagetest@24313fcc]" started-at="2025-11-29T13:51:39 IST" name="openBrowserurl" finished-at="2025-11-29T13:51:41 IST" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserurl -->
+        <test-method is-config="true" signature="LaunchAndNevigateToLoginPage()[pri:0, instance:application.Name.Test.Cartpagetest@24313fcc]" started-at="2025-11-29T13:51:41 IST" name="LaunchAndNevigateToLoginPage" finished-at="2025-11-29T13:52:05 IST" duration-ms="24260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndNevigateToLoginPage -->
+        <test-method signature="ClickOnCartLinks()[pri:0, instance:application.Name.Test.Cartpagetest@24313fcc]" started-at="2025-11-29T13:52:05 IST" name="ClickOnCartLinks" finished-at="2025-11-29T13:52:07 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCartLinks -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:application.Name.Test.Cartpagetest@24313fcc]" started-at="2025-11-29T13:52:07 IST" name="closingBrowser" finished-at="2025-11-29T13:52:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closeBrowserurl()[pri:0, instance:application.Name.Test.Cartpagetest@24313fcc]" started-at="2025-11-29T13:52:07 IST" name="closeBrowserurl" finished-at="2025-11-29T13:52:12 IST" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserurl -->
+      </class> <!-- application.Name.Test.Cartpagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
