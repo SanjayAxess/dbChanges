@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRMTest" >
+    <test  name="AllTests" thread-count="5" parallel="classes">
+        <classes>
+            <class name="OrangeHRM.LoginPageTest"/>
+            <class name="OrangeHRM.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
